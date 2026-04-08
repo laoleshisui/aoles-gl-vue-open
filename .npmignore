@@ -1,0 +1,34 @@
+# Source
+src/
+types/
+examples/
+data/
+coverImage/
+public/
+
+# Config & build tools
+vite.config.ts
+tsconfig*.json
+postcss.config.js
+tailwind.config.js
+env.d.ts
+global.d.ts
+Dockerfile
+build_docker.sh
+
+# Docs
+*.md
+!README.md
+!README.zh.md
+
+# Lock files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+.npmrc
+
+# Dev
+node_modules/
+.eslintrc*
+.gitignore
+.npmignore

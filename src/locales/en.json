@@ -1,0 +1,809 @@
+{
+  "Common":{
+    "Edit": "Edit",
+    "Delete": "Delete",
+    "Download": "Download",
+    "Share":"Share",
+    "Unshare":"Unshare",
+    "AddToTrack": "Add To Track",
+    "Retry":"Retry",
+    "Copy":"Copy",
+    "Developing": "Developing",
+    "MoreActions": "More actions",
+    "ReleaseToAdd": "Release to add",
+    "PleaseLogin": "Please log in first",
+    "AddNew": "ADD NEW",
+    "Show": "Show",
+    "Hide": "Hide"
+  },
+  "TaskItem":{
+    "ShareTemplate": "I synthesized a work using AI on PixoClip, come and take a look.",
+    "TaskStatus":{
+      "Success": "Succeed",
+      "Failed": "Failed",
+      "Processing": "Processing",
+      "Queued": "Queued"
+    },
+    "DeleteWarnMessage": "Are you sure you want to delete?",
+    "DeleteWarnTitle": "Delete Confirmation",
+    "DeleteWarnConfirmButtonText": "Yes",
+    "DeleteWarnCancelButtonText": "No",
+    "DeleteWarnCancel": "Cancel Deletion"
+  },
+  "MaterialEditor": {
+    "ResourcesTitle": "Resources",
+    "RemarkTitle": "Remark",
+    "RemarkPlaceholder": "Remark...",
+    "PromptTitle": "Prompt",
+    "PromptPlaceholder": "Prompt...",
+    "DescriptionPlaceholder": "Manually add content description or AI Analysis",
+    "Analyzing": "Analyzing...",
+    "Analysis": "AI Analysis",
+    "Message": {
+      "Type": "Please select a type",
+      "Prompt": "Please enter a prompt"
+    }
+  },
+  "BaseMenu":{
+    "AI": {
+      "Title": "Pixo"
+    },
+    "Project": {
+      "Title": "Projects"
+    },
+    "Video": {
+        "Title": "Media"
+    },
+    "Materials": {
+        "Title": "Assets"
+    },
+    "MiniDrama":{
+        "Title": "Mini Drama"
+    },
+    "Subject":{
+        "Title": "Subject Library"
+    }
+  },
+  "HomePage":{
+    "UserManual":{
+      "NavTitle": "User Manual"
+    },
+    "MaterialFeed":{
+      "NavTitle": "Hot",
+      "UseBtnText": "Use"
+    },
+    "ProjectFeed":{
+      "NavTitle": "Templates",
+      "Type": "Template",
+      "UseBtnText": "Use"
+    }
+  },
+  "Panel":{
+    "Project": {
+      "Header": {
+        "CountUnit": "Projects",
+        "SearchPlaceHolder": "Search..."
+      },
+      "MoreOptions": {
+        "Save": "Cloud Save",
+        "Edit": "Edit",
+        "Delete": "Delete",
+        "Share": "Share",
+        "Unshare": "Unshare"
+      },
+      "EmptyState": "No Project",
+      "LoadMore": "Load More...",
+      "ShareWarn": "Mustn't share. Please add the cover and the result video first",
+      "EditModal": {
+        "EditTitle": "Edit Project",
+        "CreateTitle": "Create Project (With Current Track State)",
+        "TitlePlaceHolder": "Project Name",
+        "CoverPlaceHolder": "Project Cover",
+        "ProtoPlaceHolder": "Project Protocol Data",
+        "CoverUploader": "Cover Image",
+        "OutputUploader": "Result Video"
+      },
+      "UseProject": {
+        "ChangeWarnMessage": "Are you sure you want to switch projects? This will refresh the page.",
+        "ChangeWarnTitle": "Confirm Action",
+        "ChangeWarnConfirmButtonText": "Confirm Switch",
+        "ChangeWarnCancelButtonText": "Cancel",
+        "ChangeWarnCancel": "Cancel Change"
+      },
+      "TryParseLocalProto": {
+        "ChangeWarnMessage": "Load the saved track state, or discard it?",
+        "ChangeWarnTitle": "Confirm Action",
+        "ChangeWarnConfirmButtonText": "Confirm Load",
+        "ChangeWarnCancelButtonText": "Discard",
+        "ChangeWarnCancel": "Discarded."
+      }
+    },
+    "Home": {
+        "HeaderBar": {
+            "Login": "Login",
+            "Start": "Get Started"
+        },
+        "HeroSection": {
+            "PxioTitle": {
+            "0": "Pixo",
+            "1": ""
+            },
+            "PxioDescription": {
+                "0":"Find inspiration for creation.",
+                "1":"Liberate the Efficiency of Creation."
+            },
+            "CreateProjectAction": "Create a Project for Free",
+            "ToturialAction": "View Feature Demo",
+            "TrustBadge": {
+            "0": "❖ 4K Preview Online",
+            "1": "❖ Cutting‑Edge AI Tools",
+            "2": "❖ Cloud Asset Library"
+            }
+        }
+    },
+    "Video":{
+        "ImportResources": {
+            "Title": "Import Resources",
+            "UploadLocalVideo": "Import Video",
+            "UploadLocalAudio": "Import Audio",
+            "AddText": "Add Text",
+            "AddFont": "Import Font",
+            "AddSrts": "Add Srt Subtitle",
+            "Message":{
+                "ParseFailed": "Parse Media Failed"
+            }
+        },
+        "AICapability":{
+            "Title": "AI Tools",
+            "ImageLayered": {
+                "Label": "Image Layered",
+                "Description": "Divide multiple elements of an image into different layers",
+                "PromptPlaceHolder": "Describe what you want to generate (optional)...",
+                "GenerateButton": "Generate",
+                "CancelButton": "Cancel",
+                "SelectImageButton": "Select",
+                "ImagePreview": "Image Preview",
+                "ReferencesTargetTitle": "Original Image",
+                "PromptTitle": "Prompt",
+                "ModelTitle": "Model",
+                "LayersNumTitle": "Number of Layers",
+                "RatioTitle": "Ratio",
+                "ResolutionTitle": "Resolution",
+                "AdaptiveOption": "Adaptive",
+                "ModelOptions": {
+                    "QWEN": "QWEN-image-layered"
+                },
+                "Message": {
+                    "PleaseUploadMedia": "Please upload a media file",
+                    "PleaseInputPrompt": "Please enter a prompt",
+                    "GenerateFailed": "Generation failed, please check your credit balance",
+                    "Generating": "Generating"
+                }
+            },
+            "GenerateShortVideo": {
+                "Label": "AI Short Video",
+                "Description": "Generate story-driven short videos based on text descriptions and reference images",
+                "PromptPlaceHolder": "Describe the short video content you wish to generate...",
+                "GenerateButton": "Generate",
+                "CancelButton": "Cancel",
+                "SelectImageButton": "Select",
+                "ImagePreview": "Image Preview",
+                "ReferencesTitle": "Reference Images",
+                "PromptTitle": "Prompt",
+                "ModelTitle": "Model",
+                "ModeTitle": "Mode",
+                "GenerateAudioTitle": "Enable Audio",
+                "DurationTitle": "Duration",
+                "RatioTitle": "Ratio",
+                "ResolutionTitle": "Resolution",
+                "StyleTitle": "Style",
+                "TotalShotsTitle": "Shots Number",
+                "AdaptiveOption": "Adaptive",
+                "Mode": {},
+                "Message": {
+                    "PleaseUploadMedia": "Please upload a media file",
+                    "PleaseInputPrompt": "Please enter a prompt",
+                    "GenerateFailed": "Generation failed, please check your credit balance",
+                    "Generating": "Generating..."
+                }
+            },
+            "ImageToVideo":{
+                "Label": "Image To Video",
+                "Description": "Generate video based on text descriptions and reference images",
+                "PromptPlaceHolder": "Describe the video content you wish to generate...",
+                "GenerateButton": "Generate",
+                "CancelButton": "Cancel",
+                "SelectImageButton": "Select",
+                "ImagePreview":"Image Preview",
+                "ReferencesTitle": "Image References",
+                "VideoReferencesTitle": "Video References",
+                "AudioReferencesTitle": "Audio References",
+                "PromptTitle": "Prompt",
+                "ModelTitle": "Model",
+                "GenerateAudioTitle": "Generate Audio",
+                "ModeTitle": "Mode",
+                "DuratioinTitle": "Duration",
+                "RatioTitle": "Ratio",
+                "ResolutionTitle": "Resolution",
+                "AdaptiveOption": "Adaptive",
+                "Mode":{
+                    "FirstFrame": "First Frame",
+                    "TextToVideo": "Text To Video",
+                    "FirstLastFrame": "First Last Frame"
+                },
+                "Message":{
+                    "PleaseUploadMedia": "Please Upload Media",
+                    "PleaseInputPrompt": "Please Input Prompt",
+                    "GenerateFailed": "Generation failed, please check your points balance",
+                    "Generating": "Generating"
+                }
+            },
+            "TextToImage":{
+                "Label": "Text To Image",
+                "Description": "Generate image based on text descriptions",
+                "PromptPlaceHolder": "Describe the image content you wish to generate...",
+                "GenerateButton": "Generate",
+                "CancelButton": "Cancel",
+                "PromptTitle": "Prompt",
+                "ModelTitle": "Model",
+                "DuratioinTitle": "Duration",
+                "RatioTitle": "Ratio",
+                "ResolutionTitle": "Resolution",
+                "Model":{
+                    "NanoBananaPro":{
+                        "Label": "Nano Banana Pro"
+                    },
+                    "Seedream":{
+                        "Label": "Seedream"
+                    }
+                },
+                "Message":{
+                    "PleaseUploadMedia": "Please Upload Media",
+                    "PleaseInputPrompt": "Please Input Prompt",
+                    "GenerateFailed": "Generation failed, please check your points balance",
+                    "Generating": "Generating"
+                }
+            },
+            "TextToVideo":{
+                "Label": "Text To Video",
+                "Description": "Generate video based on text descriptions",
+                "PromptPlaceHolder": "Describe the video content you wish to generate...",
+                "GenerateButton": "Generate",
+                "CancelButton": "Cancel",
+                "PromptTitle": "Prompt",
+                "ModelTitle": "Model",
+                "DuratioinTitle": "Duration",
+                "RatioTitle": "Ratio",
+                "ResolutionTitle": "Resolution",
+                "Message":{
+                    "PleaseUploadMedia": "Please Upload Media",
+                    "PleaseInputPrompt": "Please Input Prompt",
+                    "GenerateFailed": "Generation failed, please check your points balance",
+                    "Generating": "Generating"
+                }
+            },
+            "TextToSpeech":{
+                "Label": "Text To Speech",
+                "Description": "Generate speech based on text descriptions",
+                "PromptPlaceHolder": "Describe the audio content you wish to generate...",
+                "GenerateButton": "Generate",
+                "CancelButton": "Cancel",
+                "PromptTitle": "Text",
+                "ModelSelection": "Model Selection",
+                "VoiceSelection": "Voice Selection",
+                "VoicePlaceholder": "Voice Placeholder",
+                "AddVoiceButton": "Add",
+                "AddVoiceButtonTitle": "Add custom voice",
+                "EmotionSettings": "Emotion Settings",
+                "ResetEmotions": "Reset Emotions",
+                "Emotion":{
+                    "Happy":{
+                        "Title": "Happy"
+                    },
+                    "Angry":{
+                        "Title": "Angry"
+                    },
+                    "Sad":{
+                        "Title": "Sad"
+                    },
+                    "Afraid":{
+                        "Title": "Afraid"
+                    },
+                    "Disgusted":{
+                        "Title": "Disgusted"
+                    },
+                    "Melancholic":{
+                        "Title": "Melancholic"
+                    },
+                    "Surprised":{
+                        "Title": "Surprised"
+                    },
+                    "Calm":{
+                        "Title": "Calm"
+                    }
+                },
+                "Message":{
+                    "PleaseUploadMedia": "Please Upload Media",
+                    "PleaseInputPrompt": "Please Input Prompt",
+                    "GenerateFailed": "Generation failed, please check your points balance",
+                    "Generating": "Generating"
+                }
+            },
+            "ImageToImage":{
+                "Label": "Image To Image",
+                "Description": "Generate image based on text descriptions and reference images",
+                "PromptPlaceHolder": "Describe the image content you wish to generate...",
+                "GenerateButton": "Generate",
+                "CancelButton": "Cancel",
+                "SelectImageButton": "Select",
+                "ImagePreview":"Image Preview",
+                "ReferencesTitle": "References",
+                "PromptTitle": "Prompt",
+                "ModelTitle": "Model",
+                "RatioTitle": "Ratio",
+                "ResolutionTitle": "Resolution",
+                "AdaptiveOption": "Adaptive",
+                "JustUploaded": "Just uploaded",
+                "Model":{
+                    "NanoBananaPro":{
+                        "Label": "Nano Banana Pro"
+                    },
+                    "Seedream":{
+                        "Label": "Seedream"
+                    }
+                },
+                "Message":{
+                    "PleaseUploadMedia": "Please Upload Media",
+                    "PleaseInputPrompt": "Please Input Prompt",
+                    "GenerateFailed": "Generation failed, please check your points balance",
+                    "Generating": "Generating"
+                }
+            },
+            "VoiceConversion": {
+                "Label": "AI Voice Conversion",
+                "Description": "Change to a specified voice tone",
+                "GenerateButton": "Convert",
+                "CancelButton": "Cancel",
+                "SelectTargetButton": "Select",
+                "SelectRefButton": "Select",
+                "ReferencesTargetTitle": "Source Voice Audio",
+                "ReferencesRefTitle": "Reference Voice Tone Audio",
+                "ModelTitle": "Model",
+                "ModelOptions":{
+                    "SeedVC-v1": "SeedVC-v1"
+                },
+                "Message": {
+                    "PleaseUploadMedia": "Please upload a media file",
+                    "PleaseUploadAudio": "Please upload an audio file",
+                    "PleaseInputPrompt": "Please enter a prompt",
+                    "GenerateFailed": "Generation failed, please check your credit balance",
+                    "Generating": "Generating"
+                }
+            },
+            "SplitScene": {
+                "Label": "Shot Segmentation",
+                "Description": "Split a video containing multiple shots into several single-shot videos",
+                "GenerateButton": "Split",
+                "CancelButton": "Cancel",
+                "ReferencesTargetTitle": "Original Video",
+                "Message": {
+                    "PleaseUploadMedia": "Please upload a media file",
+                    "GenerateFailed": "Generation failed, please check your credit balance",
+                    "Generating": "Generating"
+                }
+            },
+            "VSR": {
+                "Label": "Subtitle Remover",
+                "Description": "Intelligently remove text from videos",
+                "ModelTitle": "Select Model",
+                "GenerateButton": "Erase",
+                "CancelButton": "Cancel",
+                "ReferencesTargetTitle": "Original Video",
+                "ModelOptions":{
+                    "STTN": "STTN",
+                    "LAMA": "LAMA",
+                    "PROPAINTER": "PROPAINTER"
+                },
+                "Message": {
+                    "PleaseUploadMedia": "Please upload a media file",
+                    "GenerateFailed": "Generation failed, please check your credit balance",
+                    "Generating": "Generating"
+                }
+            },
+            "Avatar": {
+                "Label": "Digital Human",
+                "Description": "Audio-driven Digital Human",
+                "PromptPlaceHolder": "Describe the image you wish to generate (optional)...",
+                "GenerateButton": "Generate",
+                "CancelButton": "Cancel",
+                "SelectImageButton": "Select",
+                "SelectAudioButton": "Select",
+                "ImagePreview": "Image Preview",
+                "AudioPreview": "Audio Preview",
+                "ReferencesTitle": "Image Reference",
+                "ReferencesAudioTitle": "Audio Reference",
+                "PromptTitle": "Prompt (Optional)",
+                "ModelTitle": "Model",
+                "RatioTitle": "Ratio",
+                "ResolutionTitle": "Resolution",
+                "AudioOrderTitle": "Audio Order",
+                "AdaptiveOption": "Adaptive",
+                "JustUploaded": "Just Uploaded",
+                "AudioOrderOptions":{
+                    "Meanwhile": "Speak Meanwhile",
+                    "LeftRight": "Left First Then Right", 
+                    "RightLeft": "Right First Then Left"
+                },
+                "ModelOptions": {
+                    "InfiniteTalk": "Single Person Lip Sync",
+                    "InfiniteTalkMulti": "Multi-Person Lip Sync", 
+                    "InfiniteTalkVideo": "Video Lip Sync"
+                },
+                "Message": {
+                "PleaseUploadMedia": "Please upload a media file",
+                "PleaseUploadAudio": "Please upload an audio file",
+                "PleaseInputPrompt": "Please enter a prompt",
+                "GenerateFailed": "Generation failed, please check your credit balance",
+                "Generating": "Generating"
+                }
+            },
+            "FormatMedia":{
+                "Label": "Media",
+                "Description": "The uploaded file"
+            },
+            "GLController":{
+                "Label": "Output file",
+                "Description": "The output generated file"
+            },
+            "CostomFont":{
+                "Label": "Costom Font",
+                "Description": "The uploaded font file"
+            },
+            "CostomAudio":{
+                "Label": "Costom Audio",
+                "Description": "The uploaded audio file"
+            },
+            "CostomSubtitle":{
+                "Label": "Costom Subtitle",
+                "Description": "The uploaded subtitle file"
+            },
+            "SubtitleRecognition":{
+                "Label": "Subtitle Recognition",
+                "Description": "Identify subtitles in media files",
+                "GenerateButton": "Generate",
+                "CancelButton": "Cancel",
+                "SelectImageButton": "Select",
+                "ImagePreview":"Image Preview",
+                "ReferencesTitle": "References",
+                "ModelTitle": "Model",
+                "Message":{
+                    "PleaseUploadMedia": "Please Upload Media",
+                    "GenerateFailed": "Generation failed, please check your points balance",
+                    "Generating": "Generating"
+                }
+            }
+        },
+        "GeneratingTask":{
+            "HeaderTitle": "Running Tasks",
+            "Message":{
+                "TaskCanceled": "Task Canceled",
+                "TaskCancelFailed": "Task Cancel Failed",
+                "FetchTaskSucceed": "Fetch Task Succeed",
+                "FetchTaskFailed": "Fetch Task Failed"
+            }
+        }
+    },
+    "Materials":{
+        "Loading": "Loading...",
+        "Empty": "Empty",
+        "LoadMore": "Load More",
+        "MaterialsFinder":{
+            "Search": "Search items...",
+            "Refresh": "Refresh List",
+            "NoSearchResult": "No results found for ",
+            "Title": "Assets",
+            "ImportTitle": "Import",
+            "ImportDesc": "Click to browse OR Drag files"
+        },
+        "MaterialEditor":{
+            "Title": "Asset Editor"
+        }
+    },
+    "MiniDrama": {
+        "SplitScene": {
+        "Title": "Text Generation",
+        "Description": "Input long text and split scenes",
+        "HeaderTitle": "Step 1: Input Text and Split Scenes",
+        "SelectedPastDramaIDPlaceHodler": "Select Script",
+        "DramaTitlePlaceHodler": "Please enter script title...",
+        "DramaStylePlaceHodler": "Please enter visual style keywords...",
+        "DramaContentPlaceHodler": "Please enter your text content...",
+        "DramaTitleAlert": "Please enter complete text content",
+        "SplitButton": "Split Scenes",
+        "DramaStyleDefault": "Children's Cartoon Style",
+        "SplitSceneSuccess": "Text analysis successful, number of scenes:",
+        "SplitSceneFailed": "Text analysis failed:"
+        },
+        "GenerateCharacter": {
+        "Title": "Character Setting",
+        "Description": "Confirm main character appearance",
+        "HeaderTitle": "Step 2: Confirm Character Appearance",
+        "CharacterCountAlert": "Number of main characters identified from text:",
+        "NoCharacterImage": "Waiting to generate appearance",
+        "CharacterImageAlt": "Character Appearance",
+        "CharacterPromptPlaceHodler": "Character generation description",
+        "GenerateButton": "Generate Appearance",
+        "RegenerateButton": "Regenerate",
+        "UploadCharacterButton": "Upload Appearance",
+        "CharacterNamePlaceHodler": "Character Name",
+        "CharacterDescriptionPlaceHodler": "Character Description",
+        "CreateNewCharacterButton": "Add New Character",
+        "LastStep": "Previous Step",
+        "NextStep": "Next Step",
+        "CreateCharacterSuccess": "Character appearance generated successfully",
+        "CreateCharacterFailed": "Character appearance generation failed:"
+        },
+        "GenerateSceneImage": {
+        "Title": "Scene Generation",
+        "Description": "Generate character and scene fusion",
+        "HeaderTitle": "Step 3: Generate Scene Fusion",
+        "SceneCountAlert": "Number of scene images to generate:",
+        "GenerateAllScene": "Generate All Scenes in Batch",
+        "SceneHeaderTitle": "Scene",
+        "NoSceneImage": "Waiting to generate scene image",
+        "SceneImageAlt": "Scene Preview",
+        "CharactersThumbnailsHeaderTitle": "Character Previews",
+        "ScenePromptPlaceHodler": "Enter scene description keywords...",
+        "GenerateButton": "Generate Image",
+        "RegenerateButton": "Regenerate",
+        "LastStep": "Previous Step",
+        "NextStep": "Next Step",
+        "CreateSceneSuccess": "Scene image generated successfully",
+        "CreateSceneFailed": "Scene image generation failed:",
+        "CreateAllSceneSuccess": "All scene images generated successfully",
+        "CreateAllSceneFailed": "All scene images generation failed:"
+        },
+        "GenerateSceneVideo": {
+        "Title": "Video Generation",
+        "Description": "Generate final scene videos",
+        "HeaderTitle": "Step 4: Generate Scene Videos",
+        "SceneCountAlert": "Generate video for each scene",
+        "GenerateAllScene": "Generate All Videos in Batch",
+        "SceneHeaderTitle": "Scene",
+        "NoSceneVideo": "Waiting to generate scene video",
+        "SceneVideoAlt": "Scene Preview",
+        "ScenePromptPlaceHodler": "Enter scene video description keywords...",
+        "GenerateButton": "Generate Video",
+        "RegenerateButton": "Regenerate",
+        "LastStep": "Previous Step",
+        "NextStep": "Complete",
+        "CreateSceneSuccess": "Scene video generated successfully",
+        "CreateSceneFailed": "Scene video generation failed:",
+        "CreateAllSceneSuccess": "All scene videos generated successfully",
+        "CreateAllSceneFailed": "All scene videos generation failed:",
+        "ExportSuccess": "Scene images generated successfully"
+        }
+    }
+  },
+  "ControllerPreview":{
+    "Title": "Preview",
+    "ResolutionSetter":{
+        "ModeOptions":{
+          "OriginVideo": "Origin",
+          "ScaledVideo": "UltraSpeed"
+        },
+        "PreviewModeLabel": "Preview Mode",
+        "ChangeWarnMessage": "Changing the resolution will reload the page to apply changes, which will discard the current track content. Continue?",
+        "ChangeWarnTitle": "Confirm Action",
+        "ChangeWarnConfirmButtonText": "Reload",
+        "ChangeWarnCancelButtonText": "Cancel",
+        "ChangeWarnChangeSucceed": "Action succeed",
+        "ChangeWarnChangeError": "Action error",
+        "ChangeWarnCancel": "Action cancelled"
+    }
+  },
+  "TrackContainer":{
+    "TrackList":{
+        "Note": "No track yet, go ahead and import materials"
+    }
+  },
+  "AttributeContainer":{
+    "Tips": {
+        "0": "Select a clip to edit its properties",
+        "1": "Supports 1080p, 2K, 4K, and other resolutions",
+        "2": "Selected media can be freely dragged and rotated in the preview window",
+        "3": "Text can be edited for font, color, outline, letter spacing, etc.",
+        "4": "Supports PNG/WEBM images/videos with transparency"
+    },
+    "FormItem":{
+        "Video":{
+            "Attribute": "Attribute",
+            "Position": "Position",
+            "Coordinate": "Coordinate",
+            "CenterX": "x",
+            "CenterY": "y",
+            "Rotation": "Rotation (degree)",
+            "ScaleX": "ScaleX (%)",
+            "ScaleY": "ScaleY (%)",
+            "Effect": "Effect",
+            "Transition": "Transition",
+            "EffectList": "Effect List",
+            "HFlip": "H-Flip"
+        },
+        "Text":{
+            "Attribute": "Attribute",
+            "SyncInTrack": "Sync In Track",
+            "IsSyncInTrack": "Off-On",
+            "Position": "Position",
+            "Coordinate": "Coord",
+            "CenterX": "x",
+            "CenterY": "y",
+            "Rotation": "Rotation (degree)",
+            "ScaleX": "ScaleX (%)",
+            "ScaleY": "ScaleY (%)",
+            "Text": "Text",
+            "FontFamily": "Font",
+            "FontSize":"Size",
+            "StrokeWidth":"Stroke",
+            "TextPadding":"Padding",
+            "TextContent":"Content",
+            "TextColor": "Text",
+            "StrokeColor": "Stroke",
+            "BackgroundColor": "Backgrd"
+        },
+        "Audio":{
+            "Attribute": "Attribute",
+            "Volume": "Volume"
+        },
+        "ConfigDialog":{
+            "Title": "Configuration",
+            "CommonTitle": "Common",
+            "Confirm":"Confirm",
+            "Close":"Cancel",
+            "UniformConfig": "Uniform Configiration"
+        }
+    }
+  },
+  "HeaderContainer":{
+    "Generate": "Generate",
+    "GlobalConfigDialog":{
+        "Title": "Configuration",
+        "CommonTitle": "Common",
+        "PreviewSolution": "Preview Solution",
+        "OutputSolution": "Output Solution",
+        "Language": "语言/Language",
+        "DarkSwitch": "Dark UI",
+        "OutputScale": "Output Resulotion Scale Ratio",
+        "OutputFPS": "Output FPS",
+        "Confirm":"Confirm",
+        "Close":"Cancel"
+    },
+    "LoginModal":{
+        "LoginTab": {
+            "Title": "Login",
+            "UserName": "User name",
+            "UserNamePlaceHolder": "Input your user name",
+            "Password": "Password",
+            "PasswordPlaceHolder": "Input your password",
+            "ForgetPassword": "Forget password",
+            "LoginButton": "Login",
+            "RememberMe": "Remember me",
+            "SendCode": "Send Code",
+            "PhonePlaceHolder": "Input Phone number",
+            "VerificationCodePlaceHolder": "Input verification code",
+            "Social":{
+                "SocialLoginTitle": "Or social account",
+                "WeChat": {
+                    "Title": "WeChat"
+                },
+                "QQ": {
+                    "Title": "QQ"
+                },
+                "Weibo": {
+                    "Title": "Weibo"
+                }
+            }
+        },
+        "SignUpTab": {
+            "Title": "Sign up",
+            "UserName": "User name",
+            "UserNamePlaceHolder": "Input your user name",
+            "Email": "Email",
+            "EmailPlaceHolder": "Input your email",
+            "Phone": "Phone",
+            "PhonePlaceHolder": "Input your Phone (optional)",
+            "Password": "Password",
+            "PasswordPlaceHolder": "8-20 letters or numbers",
+            "ConfirmPassword": "Confirm password",
+            "ConfirmPasswordPlaceHolder": "Re-input the password",
+            "ForgetPassword": "Forget password",
+            "HaveRead": "I have read and agree to ",
+            "UserAgreement": "the User Agreement",
+            "TermsError": "Please agree to the user agreement first",
+            "SignUpButton": "Sign Up"
+        },
+        "ProfileTab": {
+            "Title": "Profile",
+            "MemberSince": "Since",
+            "Email": "Email",
+            "Phone": "Phone",
+            "NotSet": "",
+            "Edit": "Edit",
+            "Save": "Save",
+            "Cancel": "Cancel",
+            "AccountLevel": "Level",
+            "Member": "Member",
+            "LogoutButton": "Logout",
+            "LoginPrompt": "Please login",
+            "CreditsBalance": "Credits",
+            "Recharge": "Recharge",
+            "NicknamePlaceholder":"Nickname" 
+        }
+    },
+    "Message":{
+        "GenerateSucceed":"Generate Succeed",
+        "GenerateFailed":"Generate Failed"
+    }
+  },
+  "FontMap":{
+    "Label":{
+        "NotoSansSC": "NotoSansSC",
+        "GangFengFanTi": "GangFengFanTi",
+        "Qiji": "Qiji",
+        "CactusClassicalSerif-Regular": "CactusClassicalSerif-Regular",
+        "LongCang-Regular": "LongCang-Regular",
+        "MaShanZheng-Regular": "MaShanZheng-Regular",
+        "NotoSerifSC-Regular": "NotoSerifSC-Regular",
+        "ZCOOLKuaiLe-Regular": "ZCOOLKuaiLe-Regular",
+        "ZCOOLQingKeHuangYou-Regular": "ZCOOLQingKeHuangYou-Regular",
+        "ZCOOLXiaoWei-Regular": "ZCOOLXiaoWei-Regular",
+        "ZhiMangXing-Regular": "ZhiMangXing-Regular"
+    }
+  },
+  "TransitionMap":{
+    "Label":{
+        "None": "None",
+        "BookFlip": "BookFlip",
+        "ButterflyWaveScrawler": "ButterflyWaveScrawler",
+        "Cannabisleaf": "Cannabisleaf",
+        "CrossWarp": "CrossWarp",
+        "Cube": "Cube",
+        "DoomScreenTransition": "DoomScreenTransition",
+        "Doorway": "Doorway",
+        "FilmBurn": "FilmBurn",
+        "Flyeye": "Flyeye",
+        "GlitchDisplace": "GlitchDisplace",
+        "GlitchMemories": "GlitchMemories",
+        "InvertedPageCurl": "InvertedPageCurl",
+        "Kaleidoscope": "Kaleidoscope",
+        "LuminanceMelt": "LuminanceMelt",
+        "Morph": "Morph",
+        "Mosaic": "Mosaic",
+        "Pinwheel": "Pinwheel",
+        "PolkaDotsCurtain": "PolkaDotsCurtain",
+        "Radial": "Radial",
+        "Reverse": "Reverse",
+        "Ripple": "Ripple",
+        "RotateScaleFade": "RotateScaleFade",
+        "Snow": "Snow",
+        "Swap": "Swap",
+        "TangentMotionBlur": "TangentMotionBlur",
+        "TVStatic": "TVStatic",
+        "WaterDrop": "WaterDrop",
+        "Windowslice": "Windowslice"
+    },
+    "FilmBurn":{
+        "Uniforms":{
+            "Seed":{
+                "Label": "Seed",
+                "Description": "Seed"
+            }
+        }
+    }
+  },
+  "EditorPage":{
+    "Message":{
+        "UserProfileFailed": "Request User Profile Failed"
+    }
+  }
+}

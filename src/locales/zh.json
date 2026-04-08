@@ -1,0 +1,817 @@
+{
+  "Common":{
+    "Edit": "编辑",
+    "Delete": "删除",
+    "Download": "下载",
+    "Share":"分享",
+    "Unshare":"取消分享",
+    "AddToTrack": "加入轨道",
+    "Retry":"重试",
+    "Copy":"复制",
+    "Developing": "开发中",
+    "MoreActions": "更多操作",
+    "ReleaseToAdd": "松开以添加到轨道",
+    "PleaseLogin": "请先登录",
+    "AddNew": "ADD NEW",
+    "Show": "展开",
+    "Hide": "隐藏"
+  },
+  "TrackControl":{
+    "DeleteAllWarnMessage":"确认删除所有轨道片段？",
+    "DeleteAllWarnTitle":"确认操作",
+    "DeleteAllWarnConfirmButtonText": "删除",
+    "DeleteAllCancelButtonText": "取消",
+    "DeleteAllWarnCancel": "取消删除所有轨道片段"
+  },
+  "TaskItem":{
+    "ShareTemplate": "我在PixoClip用AI合成了一个作品，快来看看吧。",
+    "TaskStatus":{
+      "Success": "成功",
+      "Failed": "失败",
+      "Processing": "处理中",
+      "Queued": "排队中"
+    },
+    "DeleteWarnMessage": "确定删除吗？",
+    "DeleteWarnTitle": "删除确认",
+    "DeleteWarnConfirmButtonText":"是",
+    "DeleteWarnCancelButtonText":"否",
+    "DeleteWarnCancel": "取消删除"
+  },
+  "MaterialEditor":{
+    "ResourcesTitle": "资源",
+    "RemarkTitle": "备注",
+    "RemarkPlaceholder":"备注..",
+    "PromptTitle": "提示词",
+    "PromptPlaceholder": "提示词..",
+    "DescriptionPlaceholder": "手动添加内容描述 或 AI智能分析",
+    "Analyzing": "分析中..",
+    "Analysis": "智能分析",
+    "Message":{
+      "Type": "请选择类型",
+      "Prompt": "请输入提示词"
+    }
+  },
+  "BaseMenu": {
+    "AI": {
+      "Title": "Pixo"
+    },
+    "Project": {
+      "Title": "项目"
+    },
+    "Video": {
+      "Title": "媒体"
+    },
+    "Materials": {
+      "Title": "资产"
+    },
+    "MiniDrama":{
+        "Title": "微短剧"
+    },
+    "Subject":{
+        "Title": "主体库"
+    }
+  },
+  "HomePage":{
+    "UserManual":{
+      "NavTitle": "用户手册"
+    },
+    "MaterialFeed":{
+      "NavTitle": "热门作品",
+      "UseBtnText": "做同款"
+    },
+    "ProjectFeed":{
+      "NavTitle": "创作模版",
+      "Type": "项目模版",
+      "UseBtnText": "做同款"
+    }
+  },
+  "Panel": {
+    "Project":{
+      "Header":{
+        "CountUnit": "项目",
+        "SearchPlaceHolder": "搜索.."
+      },
+      "MoreOptions":{
+        "Save": "云保存",
+        "Edit": "编辑",
+        "Delete": "删除",
+        "Share": "分享",
+        "Unshare": "取消分享"
+      },
+      "EmptyState": "无项目",
+      "LoadMore": "加载更多..",
+      "ShareWarn": "不可分享，请先添加封面和成品视频",
+      "EditModal":{
+        "EditTitle": "编辑项目",
+        "CreateTitle": "创建项目（记录当前轨道状态）",
+        "TitlePlaceHolder": "项目名称",
+        "CoverPlaceHolder": "项目封面",
+        "ProtoPlaceHolder": "项目协议数据",
+        "CoverUploader": "封面图",
+        "OutputUploader": "成品视频"
+      },
+      "UseProject":{
+        "ChangeWarnMessage": "确认要切换项目吗，这将刷新网页？",
+        "ChangeWarnTitle":"确认操作",
+        "ChangeWarnConfirmButtonText": "确认切换",
+        "ChangeWarnCancelButtonText": "取消",
+        "ChangeWarnCancel": "取消更改"
+      },
+      "TryParseLocalProto":{
+        "ChangeWarnMessage": "是否加载记录的轨道状态，或丢弃？",
+        "ChangeWarnTitle":"确认操作",
+        "ChangeWarnConfirmButtonText": "加载",
+        "ChangeWarnCancelButtonText": "丢弃",
+        "ChangeWarnCancel": "已丢弃"
+      }
+    },
+    "Home":{
+      "HeaderBar":{
+        "Login": "登录",
+        "Start": "开始"
+      },
+      "HeroSection":{
+        "PxioTitle":{
+          "0":"Pixo",
+          "1":""
+        },
+        "PxioDescription": {
+          "0":"发现创作灵感",
+          "1":"解放创作效能"
+        },
+        "CreateProjectAction": "免费创建作品",
+        "ToturialAction": "查看功能演示",
+        "TrustBadge":{
+          "0": "❖ 在线4K预览",
+          "1": "❖ 前沿AI工具",
+          "2": "❖ 云端资产库"
+        }
+      }
+    },
+    "Video": {
+      "ImportResources": {
+        "Title": "导入资源",
+        "UploadLocalVideo": "上传本地视频",
+        "UploadLocalAudio": "上传本地音频",
+        "AddText": "添加文字",
+        "AddFont": "添加自定义字体",
+        "AddSrts": "添加SRT字幕",
+        "Message": {
+          "ParseFailed": "解析媒体失败"
+        }
+      },
+      "AICapability": {
+        "Title": "AI 工具",
+        "ImageLayered": {
+          "Label": "图像分层",
+          "Description": "将图像的多个元素划分为不同层级",
+          "PromptPlaceHolder": "描述您希望生成的内容（可选）...",
+          "GenerateButton": "生成",
+          "CancelButton": "取消",
+          "SelectImageButton": "选择",
+          "ImagePreview": "图片预览",
+          "ReferencesTargetTitle": "原图",
+          "PromptTitle": "描述词",
+          "ModelTitle": "模型",
+          "LayersNumTitle": "图层数量",
+          "RatioTitle": "比例",
+          "ResolutionTitle": "分辨率",
+          "AdaptiveOption": "自适应",
+          "ModelOptions":{
+            "QWEN": "QWEN-image-layered"
+          },
+          "Message": {
+            "PleaseUploadMedia": "请上传媒体文件",
+            "PleaseInputPrompt": "请输入描述词",
+            "GenerateFailed": "生成失败, 请检查积分余额",
+            "Generating": "生成中"
+          }
+        },
+        "GenerateShortVideo": {
+          "Label": "AI短视频",
+          "Description": "基于文本描述和参考图片生成剧情短视频",
+          "PromptPlaceHolder": "描述您希望生成的短视频内容...",
+          "GenerateButton": "生成",
+          "CancelButton": "取消",
+          "SelectImageButton": "选择",
+          "ImagePreview": "图片预览",
+          "ReferencesTitle": "参考图",
+          "PromptTitle": "描述词",
+          "ModelTitle": "模型",
+          "ModeTitle": "模式",
+          "GenerateAudioTitle": "开启音频",
+          "DuratioinTitle": "时长",
+          "RatioTitle": "比例",
+          "ResolutionTitle": "分辨率",
+          "StyleTitle": "风格",
+          "TotalShotsTitle": "分镜数",
+          "AdaptiveOption": "自适应",
+          "Mode":{
+          },
+          "Message": {
+            "PleaseUploadMedia": "请上传媒体文件",
+            "PleaseInputPrompt": "请输入描述词",
+            "GenerateFailed": "生成失败, 请检查积分余额",
+            "Generating": "生成中"
+          }
+        },
+        "ImageToVideo": {
+          "Label": "图生视频",
+          "Description": "基于文本描述和参考图片生成视频",
+          "PromptPlaceHolder": "描述您希望生成的视频内容...",
+          "GenerateButton": "生成",
+          "CancelButton": "取消",
+          "SelectImageButton": "选择",
+          "ImagePreview": "图片预览",
+          "ReferencesTitle": "参考图",
+          "VideoReferencesTitle": "参考视频",
+          "AudioReferencesTitle": "参考音频",
+          "PromptTitle": "描述词",
+          "ModelTitle": "模型",
+          "ModeTitle": "模式",
+          "GenerateAudioTitle": "开启音频",
+          "DuratioinTitle": "时长",
+          "RatioTitle": "比例",
+          "ResolutionTitle": "分辨率",
+          "AdaptiveOption": "自适应",
+          "Mode":{
+            "FirstFrame": "首帧",
+            "TextToVideo": "文生视频",
+            "FirstLastFrame": "首尾帧"
+          },
+          "Message": {
+            "PleaseUploadMedia": "请上传媒体文件",
+            "PleaseInputPrompt": "请输入描述词",
+            "GenerateFailed": "生成失败, 请检查积分余额",
+            "Generating": "生成中"
+          }
+        },
+        "TextToImage": {
+          "Label": "文生图",
+          "Description": "基于文本描述生成图片",
+          "PromptPlaceHolder": "描述您希望生成的图片内容...",
+          "GenerateButton": "生成",
+          "CancelButton": "取消",
+          "PromptTitle": "描述词",
+          "ModelTitle": "模型",
+          "DuratioinTitle": "时长",
+          "RatioTitle": "比例",
+          "ResolutionTitle": "分辨率",
+          "Model":{
+            "NanoBananaPro":{
+              "Label": "香蕉"
+            },
+            "Seedream":{
+              "Label": "即梦"
+            }
+          },
+          "Message": {
+            "PleaseUploadMedia": "请上传媒体文件",
+            "PleaseInputPrompt": "请输入描述词",
+            "GenerateFailed": "生成失败, 请检查积分余额",
+            "Generating": "生成中"
+          }
+        },
+        "TextToVideo": {
+          "Label": "文生视频",
+          "Description": "基于文本描述生成视频",
+          "PromptPlaceHolder": "描述您希望生成的视频内容...",
+          "GenerateButton": "生成",
+          "CancelButton": "取消",
+          "PromptTitle": "描述词",
+          "ModelTitle": "模型",
+          "DuratioinTitle": "时长",
+          "RatioTitle": "比例",
+          "ResolutionTitle": "分辨率",
+          "Message": {
+            "PleaseUploadMedia": "请上传媒体文件",
+            "PleaseInputPrompt": "请输入描述词",
+            "GenerateFailed": "生成失败, 请检查积分余额",
+            "Generating": "生成中"
+          }
+        },
+        "TextToSpeech": {
+          "Label": "文生语音",
+          "Description": "基于文本描述生成语音",
+          "PromptPlaceHolder": "描述您希望生成的音频内容...",
+          "GenerateButton": "生成",
+          "CancelButton": "取消",
+          "PromptTitle": "文本",
+          "ModelSelection": "模型",
+          "VoiceSelection": "音色",
+          "VoicePlaceholder": "请选择音色",
+          "AddVoiceButton": "新增",
+          "AddVoiceButtonTitle": "添加自定义音色",
+          "EmotionSettings": "情感控制",
+          "ResetEmotions": "重置",
+          "Emotion":{
+              "Happy":{
+                  "Title": "开心"
+              },
+              "Angry":{
+                  "Title": "生气"
+              },
+              "Sad":{
+                  "Title": "伤心"
+              },
+              "Afraid":{
+                  "Title": "害怕"
+              },
+              "Disgusted":{
+                  "Title": "厌恶"
+              },
+              "Melancholic":{
+                  "Title": "忧郁"
+              },
+              "Surprised":{
+                  "Title": "惊喜"
+              },
+              "Calm":{
+                  "Title": "冷静"
+              }
+          },
+          "Message": {
+            "PleaseUploadMedia": "请上传媒体文件",
+            "PleaseInputPrompt": "请输入描述词",
+            "GenerateFailed": "生成失败, 请检查积分余额",
+            "Generating": "生成中"
+          }
+        },
+        "ImageToImage": {
+          "Label": "图生图",
+          "Description": "基于文本描述和参考图片生成图片",
+          "PromptPlaceHolder": "描述您希望生成的图片内容...",
+          "GenerateButton": "生成",
+          "CancelButton": "取消",
+          "SelectImageButton": "选择",
+          "ImagePreview": "图片预览",
+          "ReferencesTitle": "参考图",
+          "PromptTitle": "描述词",
+          "ModelTitle": "模型",
+          "RatioTitle": "比例",
+          "ResolutionTitle": "分辨率",
+          "AdaptiveOption": "自适应",
+          "JustUploaded": "刚刚上传",
+          "Model":{
+            "NanoBananaPro":{
+              "Label": "香蕉"
+            },
+            "Seedream":{
+              "Label": "即梦"
+            }
+          },
+          "Message": {
+            "PleaseUploadMedia": "请上传媒体文件",
+            "PleaseInputPrompt": "请输入描述词",
+            "GenerateFailed": "生成失败, 请检查积分余额",
+            "Generating": "生成中"
+          }
+        },
+        "VoiceConversion": {
+          "Label": "AI变声",
+          "Description": "更换为指定音色",
+          "GenerateButton": "转换",
+          "CancelButton": "取消",
+          "SelectTargetButton": "选择",
+          "SelectRefButton": "选择",
+          "ReferencesTargetTitle": "原音色音频",
+          "ReferencesRefTitle": "目标音色音频",
+          "ModelTitle": "模型",
+          "ModelOptions":{
+            "SeedVC-v1": "SeedVC-v1"
+          },
+          "Message": {
+            "PleaseUploadMedia": "请上传媒体文件",
+            "PleaseUploadAudio": "请上传音频文件",
+            "PleaseInputPrompt": "请输入描述词",
+            "GenerateFailed": "生成失败, 请检查积分余额",
+            "Generating": "生成中"
+          }
+        },
+        "SplitScene": {
+          "Label": "镜头切分",
+          "Description": "将一个包含多个镜头的视频切分为多个单镜头视频",
+          "GenerateButton": "切分",
+          "CancelButton": "取消",
+          "ReferencesTargetTitle": "原视频",
+          "Message": {
+            "PleaseUploadMedia": "请上传媒体文件",
+            "GenerateFailed": "生成失败, 请检查积分余额",
+            "Generating": "生成中"
+          }
+        },
+        "VSR": {
+          "Label": "字幕消除",
+          "Description": "智能消除视频或图片中的文字",
+          "ModelTitle": "选择模型",
+          "GenerateButton": "擦除",
+          "CancelButton": "取消",
+          "ReferencesTargetTitle": "原视频",
+          "ModelOptions":{
+            "STTN": "STTN",
+            "LAMA": "LAMA",
+            "PROPAINTER": "PROPAINTER"
+          },
+          "Message": {
+            "PleaseUploadMedia": "请上传媒体文件",
+            "GenerateFailed": "生成失败, 请检查积分余额",
+            "Generating": "生成中"
+          }
+        },
+        "Avatar": {
+          "Label": "对口型",
+          "Description": "音频驱动人物图片说话",
+          "PromptPlaceHolder": "描述您希望生成的画面内容（可选）...",
+          "GenerateButton": "生成",
+          "CancelButton": "取消",
+          "SelectImageButton": "选择",
+          "SelectAudioButton": "选择",
+          "ImagePreview": "图片预览",
+          "AudioPreview": "音频预览",
+          "ReferencesTitle": "图像引用",
+          "ReferencesAudioTitle": "音频引用",
+          "PromptTitle": "描述词(可选)",
+          "ModelTitle": "模型",
+          "RatioTitle": "比例",
+          "ResolutionTitle": "分辨率",
+          "AudioOrderTitle": "音频顺序",
+          "AdaptiveOption": "自适应",
+          "JustUploaded": "刚刚上传",
+          "AudioOrderOptions":{
+            "Meanwhile": "同时说话",
+            "LeftRight": "先左后右",
+            "RightLeft": "先右后左"
+          },
+          "ModelOptions":{
+            "InfiniteTalk": "单人对口型",
+            "InfiniteTalkMulti": "多人对口型",
+            "InfiniteTalkVideo": "视频对口型"
+          },
+          "Message": {
+            "PleaseUploadMedia": "请上传媒体文件",
+            "PleaseUploadAudio": "请上传音频文件",
+            "PleaseInputPrompt": "请输入描述词",
+            "GenerateFailed": "生成失败, 请检查积分余额",
+            "Generating": "生成中"
+          }
+        },
+        "FormatMedia": {
+          "Label": "媒体文件",
+          "Description": "已上传并进行预处理的视频文件"
+        },
+        "GLController": {
+          "Label": "导出视频",
+          "Description": "生成的结果视频"
+        },
+        "CostomFont":{
+            "Label": "自定义字体",
+            "Description": "已上传的字体文件"
+        },
+        "CostomAudio":{
+            "Label": "自定义音频",
+            "Description": "已上传的音频文件"
+        },
+        "CostomSubtitle":{
+            "Label": "自定义字幕",
+            "Description": "已上传的字幕文件"
+        },
+        "SubtitleRecognition":{
+            "Label": "字幕识别",
+            "Description": "识别媒体文件中的字幕",
+            "GenerateButton": "生成",
+            "CancelButton": "取消",
+            "SelectImageButton": "选择",
+            "ImagePreview": "预览",
+            "ReferencesTitle": "引用",
+            "ModelTitle": "模型",
+            "Message": {
+                "PleaseUploadMedia": "请上传媒体文件",
+                "GenerateFailed": "生成失败, 请检查积分余额",
+                "Generating": "生成中"
+            }
+        }
+      },
+      "GeneratingTask": {
+        "HeaderTitle": "进行中任务",
+        "Message": {
+          "TaskCanceled": "任务已取消",
+          "TaskCancelFailed": "任务取消失败",
+          "FetchTaskSucceed": "获取任务成功",
+          "FetchTaskFailed": "获取任务失败"
+        }
+      }
+    },
+    "Materials": {
+      "Loading": "加载中...",
+      "Empty": "暂无内容",
+      "LoadMore": "加载更多",
+      "MaterialsFinder":{
+        "Title": "资产",
+        "Search": "搜索...",
+        "Refresh": "刷新列表",
+        "NoSearchResult": "未找到相关结果: ",
+        "ImportTitle": "导入",
+        "ImportDesc": "点击选择文件 或 拖拽文件"
+      },
+      "MaterialEditor":{
+        "Title": "编辑资产"
+      }
+    },
+    "MiniDrama":{
+      "SplitScene":{
+        "Title": "文案生成",
+        "Description": "输入长文案并划分分镜",
+        "HeaderTitle":"第一步：输入文案并划分分镜",
+        "SelectedPastDramaIDPlaceHodler": "选择剧本",
+        "DramaTitlePlaceHodler": "请输入剧本标题...",
+        "DramaStylePlaceHodler": "请输入画面风格提示词...",
+        "DramaContentPlaceHodler": "请输入您的文案内容...",
+        "DramaTitleAlert": "请输入完整的文案内容",
+        "SplitButton": "划分分镜",
+        "DramaStyleDefault": "少儿卡通风格",
+        "SplitSceneSuccess": "文案分析成功，分镜个数：",
+        "SplitSceneFailed": "文案分析失败："
+      },
+      "GenerateCharacter":{
+        "Title": "角色设定",
+        "Description": "确认主要角色形象",
+        "HeaderTitle":"第二步：确认角色形象",
+        "CharacterCountAlert": "从文案中识别出主要角色个数：",
+        "NoCharacterImage": "等待生成形象",
+        "CharacterImageAlt": "角色形象",
+        "CharacterPromptPlaceHodler": "人物生成描述词",
+        "GenerateButton": "生成形象",
+        "RegenerateButton": "重新生成",
+        "UploadCharacterButton": "上传形象",
+        "CharacterNamePlaceHodler": "角色名称",
+        "CharacterDescriptionPlaceHodler": "角色介绍",
+        "CreateNewCharacterButton": "添加新人物",
+        "LastStep": "上一步",
+        "NextStep": "下一步",
+        "CreateCharacterSuccess": "角色形象生成成功",
+        "CreateCharacterFailed": "角色形象生成失败："
+      },
+      "GenerateSceneImage":{
+        "Title": "场景生成",
+        "Description": "生成人物与场景融合",
+        "HeaderTitle":"第三步：生成场景融合",
+        "SceneCountAlert": "需要生成分镜场景个数:",
+        "GenerateAllScene": "批量生成所有场景",
+        "SceneHeaderTitle":"分镜",
+        "NoSceneImage": "等待生成场景图像",
+        "SceneImageAlt": "场景预览",
+        "CharactersThumbnailsHeaderTitle": "人物预览图",
+        "ScenePromptPlaceHodler": "输入场景描述提示词...",
+        "GenerateButton": "生成形象",
+        "RegenerateButton": "重新生成",
+        "LastStep": "上一步",
+        "NextStep": "下一步",
+        "CreateSceneSuccess": "生成场景图像成功",
+        "CreateSceneFailed": "生成场景图像失败：",
+        "CreateAllSceneSuccess": "生成所有场景图像成功",
+        "CreateAllSceneFailed": "生成所有场景图像失败："
+      },
+      "GenerateSceneVideo":{
+        "Title": "视频生成",
+        "Description": "生成最终分镜视频",
+        "HeaderTitle":"第四步：生成分镜视频",
+        "SceneCountAlert": "为每个分镜场景生成视频",
+        "GenerateAllScene": "批量生成所有视频",
+        "SceneHeaderTitle":"分镜",
+        "NoSceneVideo": "等待生成场景图像",
+        "SceneVideoAlt": "场景预览",
+        "ScenePromptPlaceHodler": "输入场景视频描述提示词...",
+        "GenerateButton": "生成形象",
+        "RegenerateButton": "重新生成",
+        "LastStep": "上一步",
+        "NextStep": "完成",
+        "CreateSceneSuccess": "生成场景视频成功",
+        "CreateSceneFailed": "生成场景视频失败：",
+        "CreateAllSceneSuccess": "生成所有场景视频成功",
+        "CreateAllSceneFailed": "生成所有场景视频失败：",
+        "ExportSuccess": "生成场景图像成功"
+      }
+    }
+  },
+  "ControllerPreview": {
+    "Title": "预览",
+    "ResolutionSetter":{
+        "ModeOptions":{
+          "OriginVideo": "原画",
+          "ScaledVideo": "极速"
+        },
+        "PreviewModeLabel": "预览模式",
+        "ChangeWarnMessage": "更改分辨率将重新加载页面以应用更改，这会丢弃当前轨道内容。继续吗？",
+        "ChangeWarnTitle": "确认操作",
+        "ChangeWarnConfirmButtonText": "刷新页面",
+        "ChangeWarnCancelButtonText": "取消",
+        "ChangeWarnChangeSucceed": "更改完成",
+        "ChangeWarnChangeError": "更改异常",
+        "ChangeWarnCancel": "取消更改"
+    }
+  },
+  "TrackContainer": {
+    "TrackList": {
+      "Note": "暂无轨道，请导入素材开始创作"
+    }
+  },
+  "AttributeContainer": {
+    "Tips": {
+      "0": "选中片段可编辑其属性",
+      "1": "支持1080p、2K、4K等分辨率",
+      "2": "选中素材可在预览窗口随意拖动、旋转素材",
+      "3": "文字可以编辑字体、颜色、描边、字间距等",
+      "4": "支持png/webm带透明通道的图片/视频"
+    },
+    "FormItem": {
+      "Video": {
+        "Attribute": "属性",
+        "Position": "位置",
+        "Coordinate": "坐标",
+        "CenterX": "x",
+        "CenterY": "y",
+        "Rotation": "旋转 (度)",
+        "ScaleX": "横向缩放 (%)",
+        "ScaleY": "纵向缩放 (%)",
+        "Effect": "特效",
+        "Transition": "转场",
+        "EffectList": "特效列表",
+        "HFlip": "水平翻转"
+      },
+      "Text": {
+        "Attribute": "属性",
+        "SyncInTrack": "轨道同步",
+        "IsSyncInTrack": "开关",
+        "Position": "位置",
+        "Coordinate": "坐标",
+        "CenterX": "x",
+        "CenterY": "y",
+        "Rotation": "旋转 (度)",
+        "ScaleX": "横向缩放 (%)",
+        "ScaleY": "纵向缩放 (%)",
+        "Text": "文字",
+        "FontFamily": "字体",
+        "FontSize": "字号",
+        "StrokeWidth": "描边",
+        "TextPadding": "内边距",
+        "TextContent": "内容",
+        "TextColor": "文字颜色",
+        "StrokeColor": "描边颜色",
+        "BackgroundColor": "背景颜色"
+      },
+      "Audio": {
+        "Attribute": "属性",
+        "Volume": "音量"
+      },
+      "ConfigDialog": {
+        "Title": "配置",
+        "CommonTitle": "通用",
+        "Confirm": "确认",
+        "Close": "取消",
+        "UniformConfig": "统一配置"
+      }
+    }
+  },
+  "HeaderContainer": {
+    "Generate": "导出",
+    "GlobalConfigDialog": {
+      "Title": "配置",
+      "CommonTitle": "通用",
+      "PreviewSolution": "预览分辨率",
+      "OutputSolution": "导出分辨率",
+      "Language": "语言/Language",
+      "DarkSwitch": "深色模式",
+      "OutputScale": "导出分辨率放大倍数",
+      "OutputFPS": "导出视频帧率",
+      "Confirm": "确认",
+      "Close": "取消"
+    },
+    "LoginModal": {
+      "LoginTab": {
+        "Title": "登录",
+        "UserName": "用户名",
+        "UserNamePlaceHolder": "请输入用户名",
+        "Password": "密码",
+        "PasswordPlaceHolder": "请输入密码",
+        "ForgetPassword": "忘记密码",
+        "LoginButton": "登录",
+        "RememberMe": "记住我",
+        "SendCode": "发送验证码",
+        "PhonePlaceHolder": "请输入手机号",
+        "VerificationCodePlaceHolder": "请输入验证码",
+        "Social": {
+          "SocialLoginTitle": "或用社交账号登录",
+          "WeChat": {
+            "Title": "微信"
+          },
+          "QQ": {
+            "Title": "QQ"
+          },
+          "Weibo": {
+            "Title": "微博"
+          }
+        }
+      },
+      "SignUpTab": {
+        "Title": "注册",
+        "UserName": "用户名",
+        "UserNamePlaceHolder": "请输入用户名",
+        "Email": "邮箱",
+        "EmailPlaceHolder": "请输入邮箱",
+        "Phone": "手机号",
+        "PhonePlaceHolder": "请输入手机号（选填）",
+        "Password": "密码",
+        "PasswordPlaceHolder": "8-20位字母或数字",
+        "ConfirmPassword": "确认密码",
+        "ConfirmPasswordPlaceHolder": "请再次输入密码",
+        "ForgetPassword": "忘记密码",
+        "HaveRead": "我已阅读并同意",
+        "UserAgreement": "《用户协议》",
+        "TermsError": "请先同意用户协议",
+        "SignUpButton": "注册"
+      },
+      "ProfileTab": {
+        "Title": "个人资料",
+        "MemberSince": "注册于",
+        "Email": "邮箱",
+        "Phone": "手机号",
+        "NotSet": "未设置",
+        "Edit": "编辑",
+        "Save": "保存",
+        "Cancel": "取消",
+        "AccountLevel": "账户等级",
+        "Member": "会员",
+        "LogoutButton": "退出登录",
+        "LoginPrompt": "请先登录",
+        "CreditsBalance": "积分",
+        "Recharge": "充值",
+        "NicknamePlaceholder":"昵称" 
+      }
+    },
+    "Message": {
+      "GenerateSucceed": "生成成功",
+      "GenerateFailed": "生成失败"
+    }
+  },
+  "FontMap": {
+    "Label": {
+      "NotoSansSC": "思源黑体",
+      "GangFengFanTi": "港风繁体",
+      "Qiji": "令東齊伋體",
+      "CactusClassicalSerif-Regular": "仙人掌古典衬线体",
+      "LongCang-Regular": "龙藏体",
+      "MaShanZheng-Regular": "马善政体",
+      "NotoSerifSC-Regular": "思源宋体",
+      "ZCOOLKuaiLe-Regular": "站酷快乐体",
+      "ZCOOLQingKeHuangYou-Regular": "站酷庆科黄油体",
+      "ZCOOLXiaoWei-Regular": "站酷小薇体",
+      "ZhiMangXing-Regular": "志莽行书"
+    }
+  },
+  "TransitionMap": {
+    "Label": {
+        "None": "无",
+        "BookFlip": "翻书效果",
+        "ButterflyWaveScrawler": "蝴蝶波卷",
+        "Cannabisleaf": "树叶",
+        "CrossWarp": "交叉扭曲",
+        "Cube": "立方体",
+        "DoomScreenTransition": "末日屏幕过渡",
+        "Doorway": "门口",
+        "FilmBurn": "胶片燃烧",
+        "Flyeye": "蝇眼",
+        "GlitchDisplace": "故障位移",
+        "GlitchMemories": "故障记忆",
+        "InvertedPageCurl": "反向页面卷曲",
+        "Kaleidoscope": "万花筒",
+        "LuminanceMelt": "亮度融化",
+        "Morph": "变形",
+        "Mosaic": "马赛克",
+        "Pinwheel": "风车",
+        "PolkaDotsCurtain": "波点窗帘",
+        "Radial": "径向",
+        "Reverse": "反转",
+        "Ripple": "涟漪",
+        "RotateScaleFade": "旋转缩放淡入淡出",
+        "Snow": "雪花",
+        "Swap": "交换",
+        "TangentMotionBlur": "切线运动模糊",
+        "TVStatic": "电视静电",
+        "WaterDrop": "水滴",
+        "Windowslice": "窗口切片"
+    },
+    "FilmBurn":{
+        "Uniforms":{
+            "Seed":{
+                "Label": "种子",
+                "Description": "种子值"
+            }
+        }
+    }
+  },
+  "EditorPage": {
+    "Message": {
+      "UserProfileFailed": "获取用户信息失败"
+    }
+  }
+}
