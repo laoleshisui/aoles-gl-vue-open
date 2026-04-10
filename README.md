@@ -152,6 +152,10 @@ registerTransition([
 - [ ] More built-in transitions & effects
 - [ ] Plugin system
 
+## 🔗 Related
+
+- [aoles-gl-vue-test](https://github.com/laoleshisui/aoles-gl-vue-test) — official integration demo showing a complete real-world setup
+
 ## 🤝 Contributing
 
 Contributions are welcome! Whether it's bug reports, feature requests, or pull requests — all help is appreciated.

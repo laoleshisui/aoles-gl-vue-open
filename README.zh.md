@@ -152,6 +152,10 @@ registerTransition([
 - [ ] 更多内置转场与特效
 - [ ] 插件系统
 
+## 🔗 相关项目
+
+- [aoles-gl-vue-test](https://github.com/laoleshisui/aoles-gl-vue-test) — 官方集成示例，展示完整的真实接入方案
+
 ## 🤝 参与贡献
 
 欢迎任何形式的贡献！无论是 Bug 反馈、功能建议还是 Pull Request，都非常感谢。

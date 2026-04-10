@@ -1,6 +1,6 @@
 {
   "name": "aoles-gl-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "Apache-2.0",
   "description": "A web video editor utilizing Vue.js and WebGL/OpenGL, delivering ultimate high performance.",
   "keywords": [

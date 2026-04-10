@@ -6,6 +6,13 @@ data/
 coverImage/
 public/
 
+# Unnecessary dist files (fonts/assets are served by consumer app, not bundled)
+dist/fonts/
+dist/assets/
+dist/video/
+dist/favicon.ico
+dist/**/.DS_Store
+
 # Config & build tools
 vite.config.ts
 tsconfig*.json
