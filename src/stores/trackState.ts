@@ -1313,7 +1313,7 @@ export const useTrackState = defineStore('trackState', () => {
               }
             }
             else if(ctType === "transition"){
-              clip.transition = '';
+              // clip.transition = '';//Fixbug: should not be changed again.
             }
 
             nextTick(()=>{
