@@ -112,7 +112,7 @@ export class VideoTrack implements BaseTractItem {
     this.materialInfo = source.materialInfo
 
     this.transition = '';
-    this.ownTransitionMap = [...transitionMap]
+    this.ownTransitionMap = JSON.parse(JSON.stringify(transitionMap));
     forEach(this.ownTransitionMap, item => {
       if(item.value){
         item.data.controller_key = 'transition_' + this.controller_key + item.data.controller_key;
@@ -159,7 +159,7 @@ export class VideoTrack implements BaseTractItem {
     cloned.offsetR = this.offsetR 
 
     cloned.transition = this.transition 
-    cloned.ownTransitionMap = {...this.ownTransitionMap }
+    cloned.ownTransitionMap = JSON.parse(JSON.stringify(transitionMap));
     forEach(cloned.ownTransitionMap, item => {
       if(item.value){
         item.data.controller_key = 'transition_' + cloned.controller_key + item.data.controller_key;
