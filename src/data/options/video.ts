@@ -89,6 +89,7 @@ export const Options = {
                                         name: 'AttributeContainer.FormItem.Video.HFlip',
                                         path: "/glsl/video/effect/hflip.glsl",
                                         type: "video",
+                                        transition_type: "effect",
                                         uniforms: [
                                             {
                                                 name: 'flipIntensity',

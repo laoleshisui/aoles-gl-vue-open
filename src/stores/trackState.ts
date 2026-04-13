@@ -682,6 +682,7 @@ export const useTrackState = defineStore('trackState', () => {
       const radian = degreeToRadian(clip.rotation);
       const json = JSON.stringify({
         "notify": true, // must nofity the init value to js.
+        "transition_type": "position",
         "uniform":{
             "centerX" : 
             {
@@ -726,6 +727,7 @@ export const useTrackState = defineStore('trackState', () => {
       const radian = degreeToRadian(clip.rotation);
       const json = JSON.stringify({
         "notify": true, // must nofity the init value to js.
+        "transition_type": "position",
         "uniform":{
             "textColorR": 
             {
