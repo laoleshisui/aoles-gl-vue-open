@@ -107,12 +107,12 @@ export const usePreviewState = defineStore('previewState', () => {
 
   function jumpTimelineTo(fIdx: number, directly:boolean=false){
     if(!directly){
-      const span = Math.abs(fIdx - timelineTS.value);
-      console.log("span: ", span);
-      if(span < 30 * 1 && span < durationTS.value / 5){
-        //1s
-        return;
-      }
+      // const span = Math.abs(fIdx - timelineTS.value);
+      // console.log("span: ", span);
+      // if(span < 30 * 1 && span < durationTS.value / 5){
+      //   //1s
+      //   return;
+      // }
     }
     needSeek.value = 'all';
     timelineTS.value = fIdx < 0 ? 0 : (fIdx > durationTS.value ? durationTS.value : fIdx);
